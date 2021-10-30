@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Video Examples</title>
+</head>
+<body>
+    <h1>HTML5 Video Examples</h1>
+
+    <h2>JS Video Controls</h2>
+    <video id="myVideo" height="300" width="300" preload="metadata" poster="https://dinbror.dk/blog/wp-content/uploads/2016/08/html5-video-750x400.jpg">
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+    <div id="video-controls">
+        <button type="submit" id="playBtn">Play</button>
+        <button type="submit" id="pauseBtn">Pause</button>
+        <button type="submit" id="freezeBtn">Freeze</button>
+        <input type="range" id="seekBar" value="0">
+        <label for="volume">Volume</label>
+        <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+    </div>
+
+
+
+    <h2>Autoplay muted</h2>
+    <video autoplay muted>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <h2>Autoplay muted height width</h2>
+    <video autoplay muted height="300" width="300">
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <h2>Controls</h2>
+    <video controls>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <h2>Autoplay muted height width controls</h2>
+    <video autoplay muted height="300" width="300" controls>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <h2>Poster preload=none height width</h2>
+    <video controls height="300" width="300" preload="none" poster="https://dinbror.dk/blog/wp-content/uploads/2016/08/html5-video-750x400.jpg">
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <h2>Poster preload=none height width loop</h2>
+    <video controls height="300" width="300" loop preload="none" poster="https://dinbror.dk/blog/wp-content/uploads/2016/08/html5-video-750x400.jpg">
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
