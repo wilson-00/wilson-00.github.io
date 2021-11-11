@@ -37,7 +37,7 @@ function EnterNow(nameCountryVal, nameLocationVal, nameHotelVal, hotelPriceVal, 
             hotelprice: hotelPrice,
             skiprice: skiPrice,
             skilessons: skiLessons,
-            travelfare: travelFareVal,
+            travelfare: travelFare,
             website: webSite
         }
     }
