@@ -58,10 +58,11 @@ function GetBooking() {
 }
 
 function DeleteBooking(id) {
-    let url = 'https://api.sheety.co/e3348f6ac891bef5d9ac63d9e0945612/skiingInformation/sheet1' + id;
+    let url = 'https://api.sheety.co/e3348f6ac891bef5d9ac63d9e0945612/skiingInformation/sheet1/2';
     fetch(url, {
         method: 'DELETE',
     })
+
         .then(() => {
             alert("Record id " + id + " deleted!")
             GetBooking()
