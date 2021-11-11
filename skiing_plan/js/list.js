@@ -26,18 +26,20 @@ function GetBooking() {
                 let gSkiLessons = json.bookings[i].skilessons
                 let gTravelFare = json.bookings[i].travelfare
                 let gWebsite = json.bookings[i].website
+                let gId = json.bookings[i].id
                 let btnId = "delete" + gId
 
                 let row = skiingInformationList.insertRow(skiingInformationList.rows.length)
-                row.insertCell(0).innerHTML = gCountry
-                row.insertCell(1).innerHTML = gLocation
-                row.insertCell(2).innerHTML = gHotel
-                row.insertCell(3).innerHTML = gHotelPrice
-                row.insertCell(4).innerHTML = gSkiPass
-                row.insertCell(5).innerHTML = gSkiLessons
-                row.insertCell(6).innerHTML = gTravelFare
-                row.insertCell(7).innerHTML = gWebsite
-                row.insertCell(8).innerHTML = "<button id='" + btnId + "'  class='btn btn-danger'>Delete</button>"
+                row.insertCell(0).innerHTML = gId
+                row.insertCell(1).innerHTML = gCountry
+                row.insertCell(2).innerHTML = gLocation
+                row.insertCell(3).innerHTML = gHotel
+                row.insertCell(4).innerHTML = gHotelPrice
+                row.insertCell(5).innerHTML = gSkiPass
+                row.insertCell(6).innerHTML = gSkiLessons
+                row.insertCell(7).innerHTML = gTravelFare
+                row.insertCell(8).innerHTML = gWebsite
+                row.insertCell(9).innerHTML = "<button id='" + btnId + "'  class='btn btn-danger'>Delete</button>"
 
                 skiingInformationIds.push(btnId)
 

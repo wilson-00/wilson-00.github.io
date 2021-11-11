@@ -27,7 +27,7 @@ enterNowBtn.addEventListener("click", function () {
 
 })
 
-function EnterNow(nameCountryVal, nameLocationVal, nameHotelVal, hotelPriceVal, skiPriceVal, skiLessonsVal, travelFareVal, webSiteVal) {
+function EnterNow(nameCountry, nameLocation, nameHotel, hotelPrice, skiPrice, skiLessons, travelFare, webSite) {
     let url = 'https://api.sheety.co/e3348f6ac891bef5d9ac63d9e0945612/skiingInformation/sheet1';
     let body = {
         booking: {
