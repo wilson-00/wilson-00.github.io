@@ -17,70 +17,119 @@
 
         .text {
             color: white;
+
         }
+
+        .t {
+            font-size: 60px;
+        }
+
+        .f {
+            font-size: 30px;
+        }
+
+        
     </style>
+
+
 
 
 </head>
 
 <body>
+    <div class="container-fluid">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand t" href="input.html">Information Entry</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-    <h1 class="text">Planning Phase</h1>
-    <br>
-    <h3 class="text">Dates: 3/1/2022 - 6/1/2022</h3>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
 
-    <div class="row">
-        <div class="col">
-            <form>
-                <div class="form-group">
-                    <label for="nameCountry" class="text">Country</label>
-                    <input type="text" class="form-control" id="nameCountry">
-                </div>
+                            <li class="nav-item">
+                                <a class="nav-link f" href="lists.html" target="_blank">Skiing Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <p class="lead">Dates: 3/1/2022 - 6/1/2022</p>
+            </div>
         </div>
-        <div class="col">
-            <form>
-                <div class="form-group">
-                    <label for="nameLocation" class="text">Location</label>
-                    <input type="text" class="form-control" id="nameLocation">
-                </div>
+
+
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="nameCountry" class="text">Country</label>
+                        <input type="text" class="form-control" id="nameCountry">
+                    </div>
+            </div>
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="nameLocation" class="text">Location</label>
+                        <input type="text" class="form-control" id="nameLocation">
+                    </div>
+            </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="nameHotel" class="text">Hotel/Homestay</label>
+                        <input type="text" class="form-control" id="nameHotel">
+                    </div>
+            </div>
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="hotelPrice" class="text">Hotel/Homestay Price</label>
+                        <input type="text" class="form-control" id="hotelPrice">
+                    </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="skiPrice" class="text">Ski Pass Price</label>
+                        <input type="text" class="form-control" id="skiPrice">
+                    </div>
+            </div>
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="skiLessons" class="text">Ski Lessons Price</label>
+                        <input type="text" class="form-control" id="skiLessons">
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="travelFare" class="text">Travel Fare</label>
+                        <input type="text" class="form-control" id="travelFare">
+                    </div>
+            </div>
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="webSite" class="text">Website</label>
+                        <input type="text" class="form-control" id="webSite">
+                    </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary float-right" id="enterNowBtn">Enter</button>
+
     </div>
-    <div class="row">
-        <div class="col">
-            <form>
-                <div class="form-group">
-                    <label for="nameHotel" class="text">Hotel/Homestay</label>
-                    <input type="text" class="form-control" id="nameHotel">
-                </div>
-        </div>
-        <div class="col">
-            <form>
-                <div class="form-group">
-                    <label for="hotelPrice" class="text">Hotel/Homestay Price</label>
-                    <input type="text" class="form-control" id="hotelPrice">
-                </div>
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <form>
-                <div class="form-group">
-                    <label for="skiPrice" class="text">Ski Pass Price</label>
-                    <input type="text" class="form-control" id="skiPrice">
-                </div>
-        </div>
-        <div class="col">
-            <form>
-                <div class="form-group">
-                    <label for="skiLessons" class="text">Ski Lessons Price</label>
-                    <input type="text" class="form-control" id="skiLessons">
-                </div>
-        </div>
-    </div>
-    <button type="button" class="btn btn-primary float-right" id="enterNowBtn">Enter</button>
-
-
 
 
 
